@@ -15,5 +15,6 @@ public class ThreadTest extends Thread{
         System.out.println("票已买完-1-github修改");
         System.out.println("票已买完-1-本地第一修改");
         System.out.println("票已买完-2-本地第二修改");
+        System.out.println("票已买完-2-github修改");
     }
 }
