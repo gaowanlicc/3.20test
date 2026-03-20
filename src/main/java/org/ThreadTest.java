@@ -12,5 +12,6 @@ public class ThreadTest extends Thread{
             System.out.println("票的数量"+ticket);
         }
         System.out.println("票已买完");
+        System.out.println("票已买完-1-github修改");
     }
 }
