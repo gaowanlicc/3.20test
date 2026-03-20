@@ -1,0 +1,16 @@
+package org;
+
+public class ThreadTest extends Thread{
+
+    public static int ticket =100;
+
+
+    @Override
+    public void run() {
+        while(ticket>=0){
+            ticket--;
+            System.out.println("票的数量"+ticket);
+        }
+        System.out.println("票已买完");
+    }
+}
