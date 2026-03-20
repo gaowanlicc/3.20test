@@ -7,5 +7,6 @@ public class NewBranch {
         System.out.println("测试新分支");
         System.out.println("测试新分支1");
         System.out.println("测试新分支11111");
+        System.out.println("测试新分支22222");
     }
 }
